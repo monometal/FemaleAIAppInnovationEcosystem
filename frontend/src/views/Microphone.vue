@@ -35,7 +35,7 @@ var recognizer: SpeechRecognizer;
 })
 export default class Microphone extends Vue {
   text = "";
-  selectedLanguage = "de-DE";
+  selectedLanguage = "es-CO";
 
   onStream(stream: MediaStream): void {
     const speechConfig = SpeechConfig.fromSubscription(speechApiKey, region);
